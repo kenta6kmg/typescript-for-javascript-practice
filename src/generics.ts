@@ -21,4 +21,4 @@ class Mirror<T> {
   }
 }
 
-console.log(new Mirror<number>(123).echo())
+console.log(new Mirror<number>(123).echo());
