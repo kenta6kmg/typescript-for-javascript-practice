@@ -1,13 +1,17 @@
 export {};
 
-// type Profile = {
-//   name: string;
-//   age: number;
-// };
+type Mojiretu = string;
 
-const example1 = {
+const fooString: Mojiretu = 'wood';
+
+type Profile = {
+  name: string;
+  age: number;
+};
+
+const example1: Profile = {
   name: 'wood',
-  age: 30,
+  age: 123,
 };
 
 type profile1 = typeof example1;

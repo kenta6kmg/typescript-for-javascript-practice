@@ -10,7 +10,7 @@ interface ObjectInterface {
   age: number;
 }
 
-let object: ObjectType = {
+let object: ObjectInterface = {
   name: 'wood',
   age: 31,
 };
